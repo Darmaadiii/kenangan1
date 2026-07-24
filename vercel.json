@@ -2,7 +2,7 @@
   "version": 2,
   "functions": {
     "api/index.php": {
-      "runtime": "shyim/vercel-php@1.5.2"
+      "runtime": "vercel-php@0.7.1"
     }
   },
   "routes": [
