@@ -10,7 +10,7 @@ $_ENV['APP_VIEW_COMPARED_PATH'] = '/tmp';
 $dbPath = '/tmp/database.sqlite';
 if (!file_exists($dbPath)) {
     touch($dbPath);
-    
+
     // Boot Laravel secara minimal untuk menjalankan migrate
     require __DIR__ . '/../vendor/autoload.php';
     $app = require_once __DIR__ . '/../bootstrap/app.php';
